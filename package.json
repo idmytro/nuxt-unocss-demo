@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "nuxt": "3.14.1592",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.7.0",
+    "@chromatic-com/storybook": "3.2.5",
+    "@iconify/utils": "^2.3.0",
+    "@nuxt/eslint": "^0.7.6",
+    "@nuxtjs/storybook": "8.3.3",
+    "@storybook/addon-essentials": "8.4.7",
+    "@storybook/addon-interactions": "8.4.7",
+    "@storybook/blocks": "8.4.7",
+    "@storybook/test": "8.4.7",
+    "@storybook/vue3": "8.4.7",
+    "@unocss/eslint-config": "66.0.0",
+    "@unocss/nuxt": "66.0.0",
+    "@unocss/preset-web-fonts": "66.0.0",
+    "eslint": "^9.0.0",
+    "storybook": "8.4.7",
+    "typescript": "^5.8.2",
+    "unocss": "66.0.0"
+  }
+}
